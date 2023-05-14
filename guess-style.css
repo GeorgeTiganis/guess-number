@@ -1,0 +1,87 @@
+:root {
+    --btn-color: teal;   /* χρώμα πλήκτρων */
+    --btn-text: whitesmoke;   /* χρώμα κειμένου πλήκτρων */
+    --msg-win-color: rgb(0, 128, 32);  /* χρώμα μηνύματος επιτυχίας */
+    --msg-wrong-color: crimson;  /* χρώμα μηνύματος αποτυχίας */
+    --msg-text:floralwhite;  /* χρώμα κειμένου μηνύματος */
+	--low-high-color: gray;  /* χρώμα ιστορικού προσπαθειών */
+}
+body {
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+
+}
+
+header{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#instructions {
+    padding-top: 40px;
+    padding-left: 10px;
+
+}
+
+#guess {
+    padding-top: 45px;
+    padding-left: 10px;
+    margin-left: 12em;
+}
+
+#new-guess {
+    font-size: 20px;
+}
+
+#check {
+    font-size: 20px;
+    color: var(--btn-text);
+    background-color: var(--btn-color);
+    padding: 4px;
+    border-radius: 5px; 
+    border: unset;
+}
+
+#message {
+    font-size: 18px;
+    color: var(--msg-text);
+    background-color: var(--msg-win-color);
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#low-high {
+    color: var(--low-high-color);
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#restart {
+    font-size: 20px;
+    color: var(--btn-text);
+    background-color: var(--btn-color);
+    padding: 4px;
+    border-radius: 5px; 
+    margin-top: 10px;
+    border: unset;
+}
+.container{
+    width:800px;
+    height: 600px;
+    margin-left: 15em;
+    border: 1px solid black;
+    background-color: rgb(82, 214, 203);
+
+}
+.main{
+    padding: 2em;
+    
+}
+
+/* 
+
+8. Στο αρχείο stylesheet final-test-style.css να γίνουν οι κατάλληλες αλλαγές 
+που αφορούν στα στοιχεία που εμφανίζονται στον χρήστη, προσπαθώντας να επιτύχετε 
+το αποτέλεσμα που φαίνεται στην παρουσίαση. ιδιαίτερη αναφορά γίνεται ώστε το χρώμα 
+να οριστεί με βάση τα χρώματα που ορίζονται από τις μεταβλητές CSS. */
